@@ -18,6 +18,17 @@ main {
     margin: 0 0.8em;
 }
 
+.border {
+    border: 2px solid darkgrey;
+}
+
+section.border {
+    margin: auto;
+    margin-top: 3em;
+    max-width: 100%;
+    width: 1000px;
+}
+
 h1 {
     margin-top: 0;
     padding: 0.8em 0.5em;
