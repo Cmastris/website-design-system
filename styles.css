@@ -1,3 +1,5 @@
+/* ==== Universal Styles ==== */
+
 * {
     box-sizing: border-box;
     font-family: "Lato", Arial, sans-serif; /* Available Lato weights: 400 & 900 */
@@ -14,6 +16,9 @@ main {
     margin-bottom: 4em;
 }
 
+
+/* ==== Utilities & Components ==== */
+
 .thin-xm {
     margin: 0 0.8em;
 }
@@ -21,6 +26,9 @@ main {
 .border {
     border: 2px solid darkgrey;
 }
+
+
+/* ==== Elements ==== */
 
 section.border {
     margin: auto;
