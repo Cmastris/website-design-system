@@ -31,10 +31,18 @@ main {
     display: inline-block;
     height: 200px;
     width: 200px;
+    line-height: 200px;  /* Centre tile text (any number of lines) */
     max-height: 100%;
     max-width: 100%;
     margin: 1em;
     background-color: whitesmoke;
+}
+
+.tile p {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1.5;  /* Override parent `line-height` used for centring */
+    padding: 1em;
 }
 
 
