@@ -27,6 +27,16 @@ main {
     border: 2px solid darkgrey;
 }
 
+.tile {
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    max-height: 100%;
+    max-width: 100%;
+    margin: 1em;
+    background-color: whitesmoke;
+}
+
 
 /* ==== Elements ==== */
 
