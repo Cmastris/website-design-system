@@ -19,8 +19,19 @@ main {
 
 /* ==== Utilities ==== */
 
-.thin-xm {
-    margin: 0 0.8em;
+.mx-thin {
+    margin-left: 0.8em;
+    margin-right: 0.8em;
+}
+
+.my-2 {
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+
+.py-1 {
+    padding-bottom: 1em;
+    padding-top: 1em;
 }
 
 .bold {
@@ -29,6 +40,10 @@ main {
 
 .border {
     border: 2px solid darkgrey;
+}
+
+.monospace * {
+    font-family: Courier, monospace;
 }
 
 .azure {
@@ -106,4 +121,12 @@ h1 {
     background-color: whitesmoke;
     color: midnightblue;
     font-size: 2.5em;
+}
+
+h3 {
+    margin-bottom: 1.2em;
+}
+
+p {
+    margin-bottom: 1.8em;
 }
