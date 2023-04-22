@@ -100,8 +100,8 @@ main {
     flex-wrap: wrap;
     align-content: center;  /* Vertical centring of rows */
     justify-content: center;  /* Horizontal centring of flex items */
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 250px;
     margin: 1em;
 }
 
